@@ -13,14 +13,14 @@ import javax.persistence.Table;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "student")
+@Table(name = "students")
 public class Student {
     @Id
     private long id;
 
     private String name;
 
-    private String phone;
+    private String telephone;
 
     private long groupId;
 

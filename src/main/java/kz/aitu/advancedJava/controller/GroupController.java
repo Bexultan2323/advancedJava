@@ -20,4 +20,5 @@ public class GroupController {
 
         return ResponseEntity.ok(groupRepository.findAll());
     }
+
 }

@@ -11,7 +11,7 @@ import java.util.List;
 public interface StudentRepository extends CrudRepository<Student, Long> {
 
 
-    @Query(value = "select * from student where id = 2", nativeQuery = true)
+    @Query(value = "select * from students", nativeQuery = true)
     Student getStudent();
 
     List<Student> findAllByGroupId(long group_id);
